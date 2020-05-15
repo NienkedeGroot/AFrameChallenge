@@ -9,7 +9,18 @@
   </head>
   <body>
     <a-scene inspector background="color: #FAFAFA">
-      <a-box position="-2.71778 1.61335 -3.045" rotation="0 90.01568031961824 0" color="#4CC3D9" shadow="" material="" geometry="" scale="4 3.488 4"></a-box>
+    	<assets>
+    		<img id="stefanNienke" src="images/stefanNienke.jpg">
+    	</assets>
+      	<a-box 
+      		position="-2.71778 1.61335 -3.045" 
+      		rotation="0 90.01568031961824 0" 
+      		color="#4CC3D9" 
+      		shadow="" 
+      		material="src:#stefanNienke" 
+      		geometry="" 
+      		scale="4 3.488 4">
+      	</a-box>
       <a-cylinder 
       		color="crimson" 
       		height="8" 
